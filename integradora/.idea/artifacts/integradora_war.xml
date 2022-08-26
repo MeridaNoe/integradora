@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="integradora:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>integradora</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="integradora-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="integradora:war exploded" />
+    </root>
+  </artifact>
+</component>
